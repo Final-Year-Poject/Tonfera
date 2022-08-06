@@ -81,7 +81,7 @@ const Navbar = props => {
             </div>
           </div>
 
-          <Disclosure.Panel className='sm:hidden fixed bg-white top-16 w-screen z-50'>
+          <Disclosure.Panel className='sm:hidden fixed  bg-white top-16 w-screen z-50'>
             <div className='px-2 pt-2 pb-3 space-y-1'>
               {navigation.map(item => (
                 <Link key={item.name} href={item.href}>

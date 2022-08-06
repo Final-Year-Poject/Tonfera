@@ -15,6 +15,7 @@ function BrandPage(props) {
 
   if (loading) return <Loading />;
   if (msg) return <Message msg={msg} />;
+  console.log(props.brandList);
   return (
     <>
       <Head>
@@ -34,7 +35,7 @@ function BrandPage(props) {
               Every Vote Counts
             </p>
             <p className='mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto'>
-              You can report the brand if you felt it's product was not genuine.
+              You can report the product if you felt it's product was not genuine.
             </p>
           </div>
           <div className='flex flex-1 flex-wrap items-center justify-evenly gap-4'>
