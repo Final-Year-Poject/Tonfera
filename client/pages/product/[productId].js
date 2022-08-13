@@ -9,6 +9,9 @@ import TimeLine from '../../components/timeline';
 import Head from 'next/head';
 
 function ProductDetailPage(props) {
+
+  console.log(props.errorStatus);
+
   const router = useRouter();
   if (router.isFallback) return <Loading />;
   if (props.errorStatus === 404)
