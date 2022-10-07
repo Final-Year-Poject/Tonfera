@@ -28,7 +28,7 @@ To run the smart contract you should do the following
 
 
 env.local // these env variables should be put in the root of the client project
-WEB3_STORAGE_API_TOKEN  = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDdjQTcwM2E3NjZBMjAyQkJBMjNhQjQxNURhRDYwNGNiM0Q1YkJDN2EiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NTk3ODc0MDk4NjgsIm5hbWUiOiJUb25mZXJhIn0.zlGeNPy5zPqjdbU_LiWOc-mEjK0ONKmtBaaLd6rv7Ak
+WEB3_STORAGE_API_TOKEN  = this is got from web3 storage website
 
 NEXT_PUBLIC_APP_URL = http://localhost:3000
 
